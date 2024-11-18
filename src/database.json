@@ -1,0 +1,112 @@
+{
+  "trails": [
+    {
+      "id": 3,
+      "name": "Harpeth Woods Trail",
+      "distanceMiles": 2.5,
+      "location": "Nashville, TN",
+      "details": "Dog friendly, good quick loop that we enjoy on weekends.",
+      "difficultyId": 2,
+      "userId": 1,
+      "difficulty": {
+        "id": 2,
+        "name": "Moderate"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Laurel Trail",
+      "distanceMiles": 2.9,
+      "location": "Grundy County, TN",
+      "details": "Dog friendly, backpacked.",
+      "difficultyId": 1,
+      "userId": 1
+    },
+    {
+      "id": 5,
+      "name": "Picnic Point Marsh Loop",
+      "distanceMiles": 2,
+      "location": "Madison, WI",
+      "details": "Easy trail with a pretty view of the lake. The route is on a small peninsula.",
+      "difficultyId": 1,
+      "userId": 1
+    },
+    {
+      "id": 6,
+      "name": "Appalachian Trail",
+      "distanceMiles": 2197.4,
+      "location": "Eastern Border States, US",
+      "details": "Although a long trail, the terrain is moderate. Only completed 1000 miles so far!",
+      "difficultyId": 2,
+      "userId": 2
+    },
+    {
+      "id": 7,
+      "name": "Uncompahgre Peak Trail",
+      "distanceMiles": 0.9,
+      "location": "Hinsdale County, CO",
+      "details": "Moderately steep, did not make it to the top due to a storm.",
+      "difficultyId": 3,
+      "userId": 2
+    },
+    {
+      "id": 8,
+      "name": "Manitou Incline",
+      "distanceMiles": 0.9,
+      "location": "Manitou Springs, CO",
+      "details": "Extremely steep and packed! I would take the more gradual route on the way down next time.",
+      "difficultyId": 4,
+      "userId": 2
+    },
+    {
+      "name": "mlelelelele",
+      "distanceMiles": 220,
+      "location": "Nashville, TN",
+      "details": "ajnjad",
+      "difficultyId": 1,
+      "userId": 1,
+      "id": 9
+    }
+  ],
+  "difficulties": [
+    {
+      "id": 1,
+      "name": "Easy"
+    },
+    {
+      "id": 2,
+      "name": "Moderate"
+    },
+    {
+      "id": 3,
+      "name": "Hard"
+    },
+    {
+      "id": 4,
+      "name": "Extreme"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "M'Lee",
+      "email": "mleelaw123@gmail.com",
+      "password": "password1",
+      "isAdmin": "true"
+    },
+    {
+      "id": 2,
+      "name": "Abigail",
+      "email": "maezell@gmail.com",
+      "password": "password2",
+      "isAdmin": "true"
+    },
+    {
+      "id": 3,
+      "name": "Guest",
+      "email": "guest@guestemail.com",
+      "password": "guest_password",
+      "isAdmin": "false"
+    }
+  ]
+}

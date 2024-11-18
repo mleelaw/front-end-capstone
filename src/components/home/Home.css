@@ -1,0 +1,12 @@
+.page-greeting {
+  font-size: xx-large;
+  font-weight: bolder;
+  color: rgb(82, 144, 82);
+  display: flex;
+  justify-content: center;
+}
+
+.map {
+  display: flex;
+  margin: auto;
+}

@@ -1,0 +1,47 @@
+export const getAllTrails = () => {
+  return fetch(`http://localhost:8089/trails?_expand=difficulty`).then((res) =>
+    res.json()
+  );
+};
+
+export const getMyTrails = (userId) => {
+  return fetch(
+    `http://localhost:8089/trails?userId=${userId}&_expand=difficulty`
+  ).then((res) => res.json());
+};
+
+export const getDifficulties = () => {
+  return fetch("http://localhost:8089/difficulties").then((res) => res.json());
+};
+
+export const getTrailById = (id) => {
+  return fetch(`http://localhost:8089/trails/${id}?_expand=difficulty`).then(
+    (res) => res.json()
+  );
+};
+
+export const deleteTrail = (trailId) => {
+  return fetch(`http://localhost:8089/trails/${trailId}`, {
+    method: "DELETE",
+  });
+};
+
+export const addTrail = (trail) => {
+  return fetch("http://localhost:8089/trails", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(trail),
+  }).then((res) => res.json());
+};
+
+export const updateTrail = (trail) => {
+  return fetch(`http://localhost:8089/trails/${trail.id}`, {
+    method: "PUT",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(trail),
+  }).then((res) => res.json());
+};

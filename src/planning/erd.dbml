@@ -1,0 +1,59 @@
+table user {
+id int [pk]
+name varchar
+email varchar
+password varchar
+
+} 
+
+table hikes {
+id int [pk]
+name varchar
+location varchar
+length int 
+details text 
+userId int [ref: > user.id]
+difficultyId int [ref: > difficulty.id]
+}
+
+table difficulty {
+id int [pk]
+name varchar 
+
+}
+
+// Tables below are additions to MVP that I hope to complete.
+
+
+table campsites {
+id int [pk]
+name varchar
+location varchar
+details text 
+userId int [ref: > user.id]
+}
+
+
+table autoShops {
+id int [pk]
+shopname varchar
+location varchar
+userId int [ref: > user.id]
+}
+
+
+table food {
+id int [pk]
+name varchar 
+location varchar
+cuisine varchar //dropdown?
+details text 
+userId int [ref: > user.id]
+}
+
+table coffeeShops {
+id int [pk]
+shopname varchar
+location varchar
+userId int [ref: > user.id]
+}

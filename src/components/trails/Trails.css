@@ -1,0 +1,31 @@
+.trails {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.trail-card {
+  cursor: pointer;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+
+.trail-card:hover {
+  transform: scale(1.02);
+}
+
+.trail-details-container {
+  padding: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.trail-details {
+  margin-top: 1rem;
+}
+
+button {
+  margin-bottom: 1rem;
+}
